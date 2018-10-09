@@ -1,0 +1,257 @@
+.App {
+    text-align: center;
+}
+
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #dedede;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-top: 1px solid #dedede;
+}
+
+.jumbotron {
+    box-shadow: 5px 5px 50px #7c87c5;
+
+}
+
+.input-label {
+    display: inline-block;
+    width: 15%;
+    height: 2em;
+    font-size: 1em;
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+}
+
+.my-input-field {
+    display: inline-block;
+    width: 50%;
+    padding-left: 5px;
+    border: solid 1px #bbb;
+    height: 2.5em;
+    color: #75757a;
+    background-color: #dedede;
+    text-align: center;
+
+}
+
+.my-input-field-disabled {
+    text-align: center;
+    background-color: #dedede;
+}
+
+.file-input-field {
+    padding-left: 13%;
+}
+
+select {
+    height: 2em;
+    background-color: white;
+}
+
+.table-cell {
+    text-align: center;
+}
+
+.my-buttons {
+    width: 150px;
+}
+
+.account-list {
+    text-align: left;
+}
+
+.invalid-field-help-block {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.help-block {
+    margin-top: -10px;
+    width: 115%;
+}
+
+.invalidconfirmationcode {
+    color: #ff513c;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+
+.table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {
+    background-color: #518c8b;
+    font-size: 1.2em;
+    border: #bbbbbb;
+}
+
+.table>thead>tr>td.danger, .table>tbody>tr>td.danger, .table>tfoot>tr>td.danger, .table>thead>tr>th.danger, .table>tbody>tr>th.danger, .table>tfoot>tr>th.danger, .table>thead>tr.danger>td, .table>tbody>tr.danger>td, .table>tfoot>tr.danger>td, .table>thead>tr.danger>th, .table>tbody>tr.danger>th, .table>tfoot>tr.danger>th {
+    background-color: darkgrey;
+    font-size: 1.2em;
+}
+
+#myNavbar {
+    font-size: 1.2em;
+}
+
+.form-control.my-input-field {
+    text-align: center;
+    margin: 0px;
+
+}
+
+.help-block {
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    font-size: 1em;
+    color: #ccff11;
+}
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label, .has-error, .form-control-feedback {
+    color: #ccff11;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>td{
+    border: #000000;
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>td {
+    font-size: 1.1em;
+    text-align: center;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>th, .table>caption+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>td, .table>thead:first-child>tr:first-child>td {
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #bbbbbb;
+    color: #374069;
+
+}
+
+select.my-input-field {
+    text-align-last: center;
+
+}
+
+.form-control.my-input-field{
+    -webkit-text-fill-color: #75757a;
+}
+
+.btn btn-primary my-buttons{
+    padding: 10px;
+}
+
+textarea.form-control {
+    resize: vertical;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: #dedede;
+    -webkit-text-fill-color: #75757a;
+}
+
+.image-div {
+    height: 180px;
+}
+
+img.card-image {
+    width: 100%;
+    max-height: 180px;
+}
+
+.card-title {
+    color: #333a55;
+}
+
+.card-text {
+    height: 100px;
+    color: #333a55;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.9em;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.card-header {
+    color: #333a55;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 10px;
+
+}
+
+.card.mb-3 {
+    width: 28%;
+    display: inline-block;
+    margin: 20px;
+    background-color: #bbbbbb;
+    box-shadow: 5px 5px 30px #333a55;
+    height: 450px;
+}
+
+div.card-list-item {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.card-footer.text-muted {
+    text-align: left;
+    padding-left: 15px;
+    height: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.orange-button{
+    float: right;
+    margin-right: 15px;
+}
+
+.card-body {
+    height: 330px;
+}
+.form-control-file {
+    margin: auto;
+    width: 50%;
+}
+
+.file-div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.file-div input{
+    text-align: center;
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 5px;
+}
+
+#hidden-input {
+    display: none;
+
+}
